@@ -1,0 +1,6 @@
+*.dSYM/
+*.out
+.DS_Store
+.vscode/
+.vscode/
+Projects/Leap_year_checker/Leap_year
