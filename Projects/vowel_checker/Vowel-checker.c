@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<ctype.h>
 
 
 int main(){
@@ -50,3 +51,40 @@ int main(){
     }
     return 0;
 }
+
+
+
+
+// //Professional and cleaner way
+
+
+// int main(){
+// char input;
+// printf("Enter a character to check : ");
+// scanf("%c",&input);
+
+// if(!isalpha((unsigned char)input)){
+//     printf("Invalid character");
+//     return 0;
+// }
+
+// switch (tolower((unsigned char)input))
+// {
+// case 'a':
+// case 'e':
+// case 'i':
+// case 'o':
+// case 'u':
+// printf("Its is an vowel");
+//     break;
+
+// default:
+// printf("its an cosonant");
+//     break;
+// }
+
+// return 0;
+// }
+
+
+
