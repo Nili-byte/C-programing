@@ -3,6 +3,7 @@ int main(){
 
     int n , max=0  ;
     int arr[100];
+    printf("----------Welcome to the program to find the largest element in an array----------\n");
     printf("Enter the size of the array: ");
     scanf("%d",&n);
     for(int i = 0;i<n;i++){
