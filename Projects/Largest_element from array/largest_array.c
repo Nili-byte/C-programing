@@ -17,4 +17,5 @@ int main(){
     }
     printf("The largest element in the array is: %d", max);
     return 0;
+    printf("bye");
 }
